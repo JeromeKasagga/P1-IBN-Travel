@@ -1,0 +1,136 @@
+/*Body-Styling*/
+body{
+    font-family: Montserrat;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/*background-image*/
+.Background-Image{
+    width: 100%;
+    height: 100vh;
+    background-image: url("P1 RESOURCES/New York Bridge photo1.jpg");
+    background-size: cover;
+}
+
+/*navbar*/
+ .Navbar{ 
+    height: 145px;
+    width:100%;
+    background-color: rgb(125, 148, 231, 0.5);
+    padding-left: 20px;
+    padding-right: 20px;
+ } 
+
+ /* UPPER-PART */
+ .Upper-Part{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid #ffffff;
+ }
+
+/* Sign-Up-Btns */
+.Sign-Up{
+   display: inline;
+   margin-right: 0px;
+   padding-left: 30px;
+   font-size: 15px;
+   color: white;
+   text-decoration: none;
+}
+
+
+/* Contacts */
+.Contact{
+   color: white;
+   margin-right: 80px;
+   font-size: 20px;
+   font-weight: lighter;
+   padding-top: 20px;
+}
+
+/* LOWER PART OF THE WEBSITE */
+/* Links */
+.links ul li{
+   list-style: none;
+   display: inline-block;
+   padding-bottom: 15px;
+   padding-left: 30px;
+   text-decoration: none;
+   position: relative;
+}
+
+.links a{
+   text-decoration: none;
+   color: white;
+   cursor: pointer;
+   position: relative;
+   padding: 5px;
+   font-weight: 350;
+   font-size: 15px;
+   font-style: oblique;
+   transition: 0.2s;
+
+}
+
+.links a:hover{
+   background-color: white;
+   color: rgb(106, 106, 241);
+   border-radius: 5px;
+   opacity: 0.5;
+   font-style: normal;
+   font-size: 20px;
+   font-weight: 400;
+}
+
+/* The Information Part */
+.Information{
+   color: white;
+   width: 1118px;
+   height: 450px;
+   margin-left: 110px;
+   border-radius: 5px;
+   margin-top: 30px;
+}
+
+.Action-Information h1{
+   font-size: 50px;
+   font-weight: 550;
+   opacity: 0.9;
+   margin: 10px;
+}
+
+.Action-Information h3{
+   font-size: 25px;
+   font-weight: 460;
+   margin: 10px;
+}
+
+.Price-Button{
+   color: rgb(125, 148, 231, 0.5);
+   height: 50px;
+   width: 200px;
+   border-radius: 40px;
+   font-size: larger;
+   font-weight: 400;
+   cursor: pointer;
+}
+
+.Where{
+   
+}
+
+
+
+
+
+
+
+
+
+
+
